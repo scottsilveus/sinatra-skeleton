@@ -1,0 +1,31 @@
+<form action="/login" method="post" class="index-form">
+	<label for="name">Name or Email</label>
+	<input type="text" name="name" placeholder="username or email">
+	<label for="password">Password</label>
+	<input type="password" name="password "placeholder="Password">
+
+	<button>Login</button>
+</form> 
+
+
+
+<form name="sign_up" action="#" method="post" id="create" class="index-form">
+	<label for="name">Name</label>
+	<input type="text" name="name">
+  <label for="email">Email</label>
+  <input type="text" name="email" />
+  <label for="password">Password</label>
+  <input type="password" name="password" />
+
+  <button type="submit">Sign Up</button>
+
+  <ul id="errors"></ul>
+</form>
+
+
+DELETE
+<form action="/delete" method="post">
+	<input type="hidden" name="_method" value"delete">
+	<button>Delete</button>
+</form>
+
